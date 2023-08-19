@@ -1,8 +1,14 @@
-import React, { useState, useContext } from "react";
+import React from "react";
+import DisplayThemeF from "./DisplayThemeF";
+import { ThemeProvider } from "./ThemeProvider";
 import "./App.css";
 
 function App() {
-  return <div className="App">React useContext Hook</div>;
+  return (
+    <ThemeProvider>
+      <DisplayThemeF />
+    </ThemeProvider>
+  );
 }
 
 export default App;
