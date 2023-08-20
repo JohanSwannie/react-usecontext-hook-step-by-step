@@ -1,6 +1,6 @@
 import React from "react";
 import DisplayThemeF from "./DisplayThemeF";
-import { ThemeProvider } from "./ThemeProvider";
+import { ThemeProvider } from "./ThemeContext";
 import "./App.css";
 
 function App() {
