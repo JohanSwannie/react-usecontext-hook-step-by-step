@@ -6,15 +6,21 @@ export default function DisplayThemeF() {
   const toggleTheme = useToggle();
 
   const themeStyle = {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "20rem",
     color: darkTheme ? "#000" : "#CCC",
     backgroundColor: darkTheme ? "#CCC" : "#000",
-    margin: "2rem",
+    margin: "auto",
     padding: "2rem",
   };
   return (
     <>
       <button onClick={toggleTheme}>Toggle The Theme</button>
-      <div style={themeStyle}>Theme</div>
+      <div className="theme" style={themeStyle}>
+        Theme
+      </div>
     </>
   );
 }
