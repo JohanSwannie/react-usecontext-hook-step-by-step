@@ -1,3 +1,8 @@
-.App {
-  text-align: center;
+
+button {
+  color: #FFF;
+  background-color: blue;
+  width: 16vw;
+  height: 5vh;
+  margin: 5vh 42vw;
 }
