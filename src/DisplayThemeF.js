@@ -1,5 +1,5 @@
 import React from "react";
-import { useTheme, useToggle } from "./ThemeProvider";
+import { useTheme, useToggle } from "./ThemeContext";
 
 export default function DisplayThemeF() {
   const darkTheme = useTheme();
